@@ -22,4 +22,21 @@ pipeline {
         }
         stage('Itest') {
             steps {
-
+                echo "Build"
+                echo "Test"
+                echo "Integration Test"
+            }
+        }
+    }
+    post {
+        always {
+            echo 'I am Super. messi!'
+        }
+        success {
+            echo 'I am fast. Ronaldo!'
+        }
+        failure {
+            echo 'Bitch please. Jai Balaiya!'
+        }
+    }
+}
