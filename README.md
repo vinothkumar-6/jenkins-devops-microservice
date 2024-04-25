@@ -1,7 +1,7 @@
 # Jenkins
 
 ## Projects
-- Create Pipeline to Build and Push Docker Image for a Microservice
+- Create Pipeline to Build and Push Docker Image for a Microservice.
 
 ## Steps
 - Step 01 - Introduction and Launching Jenkins as Docker Container
